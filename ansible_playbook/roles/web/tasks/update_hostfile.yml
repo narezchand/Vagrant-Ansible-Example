@@ -1,0 +1,8 @@
+---
+
+- name: Update /etc/hosts file with servername
+  lineinfile:
+    dest={{ host_path }}
+    line="127.0.0.1  {{ item.servername }}"
+  with_items: apache_vhosts 
+  notify: apache-restart

@@ -1,0 +1,14 @@
+
+apache_port_http: 80
+
+apache_create_vhosts: true
+
+apache_conf_path: "/etc/apache2/sites-available/"
+
+file_name: "index.htm"
+
+host_path: "/etc/hosts"
+
+apache_vhosts:
+
+- {servername: "vm1.localhost.host", documentroot: "/var/www/html/vm_localhost_1"}

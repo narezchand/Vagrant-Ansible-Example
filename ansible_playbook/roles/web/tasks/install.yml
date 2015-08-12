@@ -1,0 +1,9 @@
+---    
+    - name: update apt cache
+      apt: update_cache=yes
+      
+    - name: Install Apache and its modules
+      apt: pkg={{ item }} state=latest
+      with_items:
+        - apache2
+        - vim
