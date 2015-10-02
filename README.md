@@ -19,3 +19,7 @@ Ansible is a free software platform for configuring and managing computers. It c
 4. On the first vagrant up that creates the environment, provisioning is run. If the environment was already created and the up is just resuming a machine or booting it up, they won't run unless the --provision flag is explicitly provided.
 5. You can also bring up your environment by using following command
    1. $ vagrant provision
+
+# About Author
+Rolind Roy https://in.linkedin.com/in/rolindroy
+Reach out if you want to talk - rolind.roy@gmail.com 
